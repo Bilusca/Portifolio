@@ -59,13 +59,21 @@ a{
 	color: white;
 }
 /*CONTAINER*/
-.container, .grid{
+.container{
 	margin: 0 auto;
 	padding: 30px;
 	width: 960px;
 }
-.grid{
-	float: left;
+.caixa, .social{
+	position: relative;
+	padding: 0px;
+	margin: 0px;
+	height: 0px;
+	bottom: 3px;
+}
+.social{
+	bottom: 10px;
+	margin-right: 20px;
 }
 
 /* STYLE */
@@ -86,8 +94,13 @@ a{
 .text-center{
 	text-align: center;
 }
-
+.align{
+	display: inline;
+}
 /* FUNCIONAL */
 .funcional{
 	padding: 15% 15%;
+}
+.funcional-2{
+	left: 50px;
 }
