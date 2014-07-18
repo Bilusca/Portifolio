@@ -82,11 +82,14 @@ a{
 }
 .fundo-cinza{
 	background: #252222;
-	color: white;
 }
 .color{
 	color: white;
 }
+.fundo-verde{
+	background: #65ba99;
+}
+
 /* TIPOGRAFIA */
 .text-right{
 	text-align: right;
@@ -94,8 +97,14 @@ a{
 .text-center{
 	text-align: center;
 }
-.align{
+.align, .space{
 	display: inline;
+}
+.space{
+	margin-right: 20px;
+}
+.bebas{
+	font-family: Bebas Neue;
 }
 /* FUNCIONAL */
 .funcional{
