@@ -75,10 +75,13 @@ a{
 	bottom: 10px;
 	margin-right: 20px;
 }
-
 /* STYLE */
-.fundo{
-	background-image: url("Fotos/bg_header.png");
+.fundo, .fundo-2{
+	background: no-repeat center center url("Fotos/bg_header.png");
+	background-size: cover;
+}
+.fundo-2{
+	background-image: url("Fotos/bg_testimonial.png");
 }
 .fundo-cinza{
 	background: #252222;
