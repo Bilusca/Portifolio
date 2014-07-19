@@ -92,7 +92,14 @@ a{
 .fundo-verde{
 	background: #65ba99;
 }
-
+.dimension, .dimension-2{
+	width: 445px;
+	height: 200px;
+}
+.dimension-2{
+	width: 24.6%;
+	height: 400px;
+}
 /* TIPOGRAFIA */
 .text-right{
 	text-align: right;
