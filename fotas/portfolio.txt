@@ -3,6 +3,6 @@ fonte padrão: BebasNeue
 cores
 cinza: #252222
 cinza_news: #cdcdcd
-cinza_logos: #bebebe
+cinza_logos: 	
 verde: #65ba99
 vermelho: #e2534b

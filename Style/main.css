@@ -75,17 +75,44 @@ a{
 	bottom: 10px;
 	margin-right: 20px;
 }
+
+.align-center{
+	text-align: center;
+}
+
 /* STYLE */
 .fundo, .fundo-2{
 	background: no-repeat center center url("Fotos/bg_header.png");
 	background-size: cover;
 }
 .fundo-2{
-	background-image: url("Fotos/bg_testimonial.png");
+	background: no-repeat center center url("Fotos/bg_testimonial.png");
+	background-size: cover;	
+	padding: 100px 0;
 }
+
+.fundo-3{
+	background: no-repeat center center url("Fotos/bg_footer.png");
+	background-size: cover;
+	padding: 100px 0;
+}
+
 .fundo-cinza{
 	background: #252222;
 }
+
+.fundo-cinza2{
+	background: #cdcdcd;
+}
+
+.fundo-cinza3{
+	background: #bebebe;
+	padding: 50px 0;
+}
+.fundo-vermelho{
+	background: #e2534b;
+}
+
 .color{
 	color: white;
 }
@@ -113,13 +140,50 @@ a{
 .space{
 	margin-right: 20px;
 }
+
+/* FONTES */
+
 .bebas{
 	font-family: Bebas Neue;
 }
+
+.grande{
+	font-size: 40px;
+	color: white;
+}
+
+.medio{
+	font-size: 25px;
+	color: white;
+}
+
+.titulo{
+	font-size: 40px;
+	color:black;
+	text-align: center;
+}
+
+.tag{
+	background-color: #65ba99;
+	border: 1px solid #65ba99;
+	padding: 1px;
+	text-align: center;
+	width: 120px;
+	color: white;
+	font-size: 15px;
+
+}
+
+
 /* FUNCIONAL */
 .funcional{
 	padding: 15% 15%;
 }
 .funcional-2{
 	left: 50px;
+}
+
+.fotos{
+	padding-left: 40px;
+	padding-right: 40px;
 }
