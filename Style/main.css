@@ -54,15 +54,10 @@ table {
 		-moz-box-sizing:border-box;
 			box-sizing: border-box;
 }
-a{
-	text-decoration: none;
-	color: white;
-}
 /*CONTAINER*/
-.container{
-	margin: 0 auto;
-	padding: 30px;
-	width: 960px;
+.barra{
+	padding: 45px;
+	background: #252222;
 }
 .caixa, .social{
 	position: relative;
@@ -119,17 +114,11 @@ a{
 .fundo-verde{
 	background: #65ba99;
 }
-.dimension, .dimension-2{
-	width: 445px;
-	height: 200px;
+.galeria .col-md-6{
+	padding: 0;
 }
-.dimension-2{
-	width: 24.6%;
-	height: 400px;
-}
+
 /* TIPOGRAFIA */
-.text-right{
-	text-align: right;
 }
 .text-center{
 	text-align: center;
@@ -178,6 +167,7 @@ a{
 /* FUNCIONAL */
 .funcional{
 	padding: 15% 15%;
+	display: center;
 }
 .funcional-2{
 	left: 50px;

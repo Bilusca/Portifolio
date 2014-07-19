@@ -6,15 +6,31 @@
 		<title>Portfólio</title>
 		<link rel="stylesheet" href="Style/main.css">
 		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-		<link rel="stylesheet" href="Style/css/bootsrap.css">
-		
+		<link rel="stylesheet" href="Style/css/bootstrap.css">
+		<script type="text/javascript" src="javascript/jquery-1.11.1.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="javascript/fancybox/source/jquery.fancybox.css" media="screen">
+		<script type="text/javascript" src="javascript/fancybox/source/jquery.fancybox.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$(".fancybox").fancybox({
+    	openEffect	: 'elastic',
+    	closeEffect	: 'elastic',
+
+    	helpers : {
+    		title : {
+    			type : 'inside'
+    		}
+    	}
+    });
+			});
+		</script>
 	</head>
 
 	<body>
 
 	
 		<header class="fundo">
-			<div class="container color funcional bebas">
+			<div class="container color funcional bebas ">
 
 				<!--COMEÇO DA IMAGEM DO TOPO-->
 
@@ -26,7 +42,7 @@
 				<!--BARRA .FOLIO COM BOTÕES DO FB, TWITTER, LINKEDIN...-->
 		</div>
 		</header>
-		<section class="fundo-cinza">
+		<section class="fundo-cinza barra">
 			<div class="container">
 				<div class="caixa bebas color">
 					<h2>.FOLIO</h2> 
@@ -41,7 +57,7 @@
 
 				</nav>
 				
-				<ul class="text-right">
+				<ul class="pull-right">
 					<li>
 						<div class="caixa">
 							<a target="_blank" href="https://br.linkedin.com/"><i class="fa fa-linkedin fa-2x social"></i></a>
@@ -54,7 +70,7 @@
 		</div>
 			<!--FIM BARRA-->
 		</section>
-		<section class="bebas fundo-verde">
+		<section class="bebas fundo-verde galeria">
 			<div class="container text-center">
 				<h1>PORTFOLIO /</h1>
 				<ul>
@@ -65,21 +81,16 @@
 				</ul>
 			</div>
 			<div class="container">
-				<div class="col-md-6">
-					<img src="Style/Fotos/woman.jpg" class="dimension">
-					<img src="Style/Fotos/tony.jpg" class="dimension">
-					<img src="Style/Fotos/trevor.jpg" class="dimension">
-					<img src="Style/Fotos/sasha.jpg" class="dimension">
-				</div>
-				<div class="col-md-1">
-					<img src="Style/Fotos/woman.jpg" class="dimension-2">
-					<img src="Style/Fotos/tony.jpg" class="dimension-2">
-					<img src="Style/Fotos/trevor.jpg" class="dimension-2">
-					<img src="Style/Fotos/sasha.jpg" class="dimension-2">
-				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<a class="fancybox" rel="group" href="Style/Fotos/sasha.jpg">
+						<img src="Style/Fotos/sasha.jpg" class="img-responsive">	</a>
+					</div>
+					<div class="col-md-6">
+						<img src="Style/Fotos/trevor.jpg" class="img-responsive">
+					</div>
 			</div>
-
-
+			</div>
 		</section>
 			<section class="fundo-2 bebas">
 				<div class="container">
@@ -88,7 +99,7 @@
 						"LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPSING ELIT.<br />
 						AENEAN VEL DIAM NON NEQUE IACULUS SOLLICITUDIN"
 					</p>
-				<p class="text-right medio">- LOREM IPSUM -</p>
+				<p class="pull-right medio">- LOREM IPSUM -</p>
 				</div>
 			</section>
 
