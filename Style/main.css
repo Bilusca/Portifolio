@@ -118,6 +118,8 @@ table {
 	padding: 0;
 }
 
+
+
 /* TIPOGRAFIA */
 }
 .text-center{
@@ -163,6 +165,23 @@ table {
 
 }
 
+.borda{
+	border-width: 5px;
+	border-style: solid;
+	border-color: white;
+}
+
+.fonte-verde{
+	color: #65ba99;
+}
+
+.fonte-cinza{
+	color: #252222;
+}
+
+.fonte-branca{
+	color: white;
+}
 
 /* FUNCIONAL */
 .funcional{
