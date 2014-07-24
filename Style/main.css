@@ -54,6 +54,9 @@ table {
 		-moz-box-sizing:border-box;
 			box-sizing: border-box;
 }
+.color-link a{
+	color: white;
+}
 /*CONTAINER*/
 .barra{
 	padding: 45px;
@@ -67,14 +70,25 @@ table {
 	bottom: 3px;
 }
 .social{
-	bottom: 10px;
+	bottom: 1px;
 	margin-right: 20px;
 }
 
 .align-center{
 	text-align: center;
 }
-
+.align-ul{
+	float: left;
+	bottom: 30px;
+	left: 420px;
+	position: relative;
+	font-size: 20px;
+}
+.align-name{
+	float: left;
+	position: absolute;
+	bottom: -30px
+	}
 /* STYLE */
 .fundo, .fundo-2{
 	background: no-repeat center center url("Fotos/bg_header.png");
@@ -117,7 +131,9 @@ table {
 .galeria .col-md-6{
 	padding: 0;
 }
-
+.galeria .col-md-3{
+	padding: 0;
+}
 
 
 /* TIPOGRAFIA */
@@ -131,7 +147,12 @@ table {
 .space{
 	margin-right: 20px;
 }
-
+.tam-1{
+	font-size: 35px;
+}
+.tam-2{
+	font-size: 20px;
+}
 /* FONTES */
 
 .bebas{
@@ -186,6 +207,8 @@ table {
 /* FUNCIONAL */
 .funcional{
 	padding: 15% 15%;
+}
+.display-center{
 	display: center;
 }
 .funcional-2{
@@ -195,4 +218,10 @@ table {
 .fotos{
 	padding-left: 40px;
 	padding-right: 40px;
+}
+.funcional-3{
+	float: left;
+	position: relative;
+	left: 270px;
+	bottom: 0;
 }
