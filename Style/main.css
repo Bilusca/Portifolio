@@ -225,3 +225,8 @@ table {
 	left: 270px;
 	bottom: 0;
 }
+.div-cabecalho{
+	float: left;
+	position: relative;
+	left: 300px;
+}
