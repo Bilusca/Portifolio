@@ -89,6 +89,15 @@ table {
 	position: absolute;
 	bottom: -30px
 	}
+
+.coluna{
+	-moz-column-count: 2;
+    -moz-column-gap: 20px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 20px;
+}
+
+
 /* STYLE */
 .fundo, .fundo-2{
 	background: no-repeat center center url("Fotos/bg_header.png");
@@ -178,16 +187,17 @@ table {
 .tag{
 	background-color: #65ba99;
 	border: 1px solid #65ba99;
-	padding: 1px;
+	padding: 3px;
 	text-align: center;
 	width: 120px;
 	color: white;
 	font-size: 15px;
+	margin: 2px 2px 2px 2px;
 
 }
 
 .borda{
-	border-width: 5px;
+	border-width: 4px;
 	border-style: solid;
 	border-color: white;
 }
