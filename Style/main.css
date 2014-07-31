@@ -102,6 +102,7 @@ table {
 .fundo, .fundo-2{
 	background: no-repeat center center url("Fotos/bg_header.png");
 	background-size: cover;
+	max-height: 600px;
 }
 .fundo-2{
 	background: no-repeat center center url("Fotos/bg_testimonial.png");
@@ -169,11 +170,16 @@ table {
 }
 
 .grande{
-	font-size: 40px;
+	font-size: 60px;
 	color: white;
 }
 
 .medio{
+	font-size: 35px;
+	color: white;
+}
+
+.medio1{
 	font-size: 25px;
 	color: white;
 }
@@ -200,6 +206,9 @@ table {
 	border-width: 4px;
 	border-style: solid;
 	border-color: white;
+	max-width: 200px;
+	text-align: center;
+
 }
 
 .fonte-verde{
