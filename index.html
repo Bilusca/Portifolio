@@ -4,9 +4,9 @@
 		<meta charset="utf-8">
 		<link rel="shortcut icon" href="Style/Fotos/favicon.ico">
 		<title>Portfólio</title>
+		<link rel="stylesheet" href="Style/css/bootstrap.css">
 		<link rel="stylesheet" href="Style/main.css">
 		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-		<link rel="stylesheet" href="Style/css/bootstrap.css">
 		<script type="text/javascript" src="javascript/jquery-1.11.1.min.js"></script>
 		<link rel="stylesheet" type="text/css" href="javascript/fancybox/source/jquery.fancybox.css" media="screen">
 		<script type="text/javascript" src="javascript/fancybox/source/jquery.fancybox.js"></script>
@@ -34,7 +34,7 @@
 
 				<!--COMEÇO DA IMAGEM DO TOPO-->
 
-				<div class="div-cabecalho">
+				<div>
 					<h1 class="grande">.FOLIO</h1> <h1 class="grande"> ONE PAGE </h1> <h1 class="grande">PSD THEM</h1>
 					<h3 class="tam-2 align-cabecalho3">SIMPLE, CLEAR, MINIMAL PORTFOLIO TEMPLATE</h3>
 				</div>
@@ -45,29 +45,36 @@
 		</header>
 		<section class="fundo-cinza barra">
 			<div class="container">
-				<div class="caixa bebas color">
-					<h2 class="align-name tam-1">.FOLIO</h2> 
-				</div>
-				<nav class="align-center caixa funcional-2 bebas color-link">
-					<ul>
-						<li class="space tam-2"><a href="index.html">HOME</a></li>					
-						<li class="space tam-2"><a href="news.html">NEWS</a></li>
-						<li class="space tam-2"><a href="bio.html">BIO</a></li>
-						<li class="space tam-2"><a href="contact.html">CONTACT</a></li>
-					</ul>
+				<div class="row">
+					<div class="col-md-3 bebas color">
+						<h2 class="align-name tam-1">.FOLIO</h2> 
+					</div>
+					<nav class="align-center col-md-6 bebas color-link">
+						<ul>
+							<li class="space tam-2"><a href="index.html">HOME</a></li>					
+							<li class="space tam-2"><a href="news.html">NEWS</a></li>
+							<li class="space tam-2"><a href="bio.html">BIO</a></li>
+							<li class="space tam-2"><a href="contact.html">CONTACT</a></li>
+						</ul>
 
-				</nav>
+					</nav>
+					
+					<ul class="col-md-3 color-link text-right social">
+						<li>
+							<a target="_blank" href="https://br.linkedin.com/"><i class="fa fa-linkedin"></i></a>
+						</li>
+						<li>
+							<a target="_blank" href="http://www.facebook.com"><i class="fa fa-facebook"></i></a>
+						</li>
+						<li>
+							<a target="_blank" href="https://www.flickr.com"><i class="fa fa-flickr"></i></a>
+						</li>
+						<li>
+							<a target="_blank" href="https://www.twitter.com"><i class="fa fa-twitter"></i></a>
+						</li>
+					</ul>
+				</div>
 				
-				<ul class="pull-right color-link">
-					<li>
-						<div class="caixa">
-							<a target="_blank" href="https://br.linkedin.com/"><i class="fa fa-linkedin fa-2x social"></i></a>
-							<a target="_blank" href="http://www.facebook.com"><i class="fa fa-facebook fa-2x social"></i></a>
-							<a target="_blank" href="https://www.flickr.com"><i class="fa fa-flickr fa-2x social"></i></a>
-							<a target="_blank" href="https://www.twitter.com"><i class="fa fa-twitter fa-2x social"></i></a>
-						</div>	
-					</li>
-				</ul>
 		</div>
 			<!--FIM BARRA-->
 		</section>
@@ -86,44 +93,101 @@
 				<div class="row">
 					<div class="col-md-6">
 						<a class="fancybox" rel="group" href="Style/Fotos/sasha.jpg" title="Sasha :3">
-							<img src="Style/Fotos/sasha.jpg" class="img-responsive">	
+							<img src="Style/Fotos/sasha.jpg" class="img-responsive">
+							<div class="overlay">
+								<i class="fa fa-search centro"></i>
+							</div>
 						</a>
 					</div>
 					<div class="col-md-6">
 						<a class="fancybox" rel="group" href="Style/Fotos/trevor.jpg">
 							<img src="Style/Fotos/trevor.jpg" class="img-responsive">
+							<div class="overlay">
+								<i class="fa fa-search centro"></i>
+							</div>
 						</a>
 					</div>
 					<div class="col-md-6">
 						<a class="fancybox" rel="group" href="Style/Fotos/tony.jpg">
 							<img src="Style/Fotos/tony.jpg" class="img-responsive">
+							<div class="overlay">
+								<i class="fa fa-search centro"></i>
+							</div>
 						</a>
 					</div>
 					<div class="col-md-6">
 						<a class="fancybox" rel="group" href="Style/Fotos/woman.jpg">
 							<img src="Style/Fotos/woman.jpg" class="img-responsive">
+							<div class="overlay">
+								<i class="fa fa-search centro"></i>
+							</div>
 						</a>
 					</div>
 					<div class="col-md-3">
 						<a class="fancybox" rel="group" href="Style/Fotos/morena.jpg">
 							<img src="Style/Fotos/morena.jpg" class="img-responsive">
+							<div class="overlay">
+								<i class="fa fa-search centro"></i>
+							</div>
 						</a>
 					</div>
 					<div class="col-md-3">
 						<a class="fancybox" rel="group" href="Style/Fotos/carpa.jpg">
 							<img src="Style/Fotos/carpa.jpg" class="img-responsive">
+							<div class="overlay">
+								<i class="fa fa-search centro"></i>
+							</div>
 						</a>
 					</div>
 					<div class="col-md-3">
 						<a class="fancybox" rel="group" href="Style/Fotos/suicide.jpg">
 							<img src="Style/Fotos/suicide.jpg" class="img-responsive">
+							<div class="overlay">
+								<i class="fa fa-search centro"></i>
+							</div>
 						</a>
 					</div>
 					<div class="col-md-3">
 						<a class="fancybox" rel="group" href="Style/Fotos/gracinha.jpg">
 							<img src="Style/Fotos/gracinha.jpg" class="img-responsive">
+							<div class="overlay">
+								<i class="fa fa-search centro"></i>
+							</div>
 						</a>
 					</div> 
+					<div class="col-md-3">
+						<a class="fancybox" rel="group" href="Style/Fotos/sasha.jpg">
+							<img src="Style/Fotos/sasha.jpg" class="img-responsive">
+							<div class="overlay">
+								<i class="fa fa-search centro"></i>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-3">
+						<a class="fancybox" rel="group" href="Style/Fotos/tony.jpg">
+							<img src="Style/Fotos/tony.jpg" class="img-responsive">
+							<div class="overlay">
+								<i class="fa fa-search centro"></i>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-3">
+						<a class="fancybox" rel="group" href="Style/Fotos/woman.jpg">
+							<img src="Style/Fotos/woman.jpg" class="img-responsive">
+							<div class="overlay">
+								<i class="fa fa-search centro"></i>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-3">
+						<a class="fancybox" rel="group" href="Style/Fotos/trevor.jpg">
+							<img src="Style/Fotos/trevor.jpg" class="img-responsive">
+							<div class="overlay">
+								<i class="fa fa-search centro"></i>
+							</div>
+						</a>
+					</div>
+
 			</div>
 			</div>
 		</section>

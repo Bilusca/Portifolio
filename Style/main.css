@@ -57,32 +57,60 @@ table {
 .color-link a{
 	color: white;
 }
-/*CONTAINER*/
-.barra{
-	padding: 45px;
-	background: #252222;
+.color-link a:hover{
+	color: #65ba99;
 }
-.caixa, .social{
+.fancybox{
 	position: relative;
-	padding: 0px;
-	margin: 0px;
-	height: 0px;
-	bottom: 3px;
+	display: block;
 }
-.social{
-	bottom: 1px;
-	margin-right: 20px;
+.fancybox:hover .overlay{
+	display: block;
 }
-
+.fancybox .overlay{
+	top: 0;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background: rgba(101, 186, 153, 0.5);
+	display: none;
+}
+/*CONTAINER*/
+.container {
+	width: 960px;
+}
+.barra{
+	padding: 15px;
+}
 .align-center{
 	text-align: center;
 }
-.align-ul{
-	float: left;
-	bottom: 30px;
-	left: 420px;
-	position: relative;
+.align-center ul{
+	margin-top: 9px;
+}
+.social li{
+	display: inline-block;
+}
+.social i{
+	margin-left: 5px;
+	background: white;
+	width: 32px;
+	height: 32px;
+	border-radius: 16px;
+	text-align: center;
+	line-height: 32px;
+	color: #333;
 	font-size: 20px;
+}
+.social i:hover{
+	color: white;
+	background: #65ba99;
+}
+.align-ul{
+	width: 100%;
+	text-align: center;
+	font-size: 20px;
+	margin-bottom: 35px;
 }
 .align-name{
 	float: left;
@@ -99,13 +127,13 @@ table {
 
 
 /* STYLE */
-.fundo, .fundo-2{
-	background: no-repeat center center url("Fotos/bg_header.png");
+.fundo{
+	background: no-repeat center center url("Fotos/bg_header.png") fixed;
 	background-size: cover;
 	max-height: 600px;
 }
 .fundo-2{
-	background: no-repeat center center url("Fotos/bg_testimonial.png");
+	background: no-repeat center center url("Fotos/bg_testimonial.png") fixed;
 	background-size: cover;	
 	padding: 100px 0;
 }
@@ -137,6 +165,7 @@ table {
 }
 .fundo-verde{
 	background: #65ba99;
+	padding-bottom: 100px;
 }
 .galeria .col-md-6{
 	padding: 0;
@@ -144,9 +173,19 @@ table {
 .galeria .col-md-3{
 	padding: 0;
 }
-
+.galeria .col-md-2{
+	padding: 0;
+}
 
 /* TIPOGRAFIA */
+.centro{
+	display: inline;
+	text-align: center;
+	color: white;
+	font-size: 70px;
+}
+.text-right{
+	text-align: right;
 }
 .text-center{
 	text-align: center;
@@ -155,9 +194,10 @@ table {
 	display: inline;
 }
 .space{
-	margin-right: 20px;
+	margin-left: 20px;
 }
 .tam-1{
+	padding-top: 20px;
 	font-size: 35px;
 }
 .tam-2{
@@ -172,6 +212,7 @@ table {
 .grande{
 	font-size: 60px;
 	color: white;
+	margin: 0 auto;
 }
 
 .medio{
@@ -225,7 +266,7 @@ table {
 
 /* FUNCIONAL */
 .funcional{
-	padding: 15% 15%;
+	padding: 100px 50px;
 }
 .display-center{
 	display: center;
