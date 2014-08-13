@@ -163,6 +163,17 @@ table {
 .color{
 	color: white;
 }
+
+.fonte-vermelha{
+	color: #e2534b;
+}
+
+.data{
+	background-color:#65ba99; 
+	color: white;
+}
+
+
 .fundo-verde{
 	background: #65ba99;
 	padding-bottom: 100px;
@@ -203,6 +214,18 @@ table {
 .tam-2{
 	font-size: 20px;
 }
+
+.space-paragrafo{
+	padding-bottom: 15px;
+}
+
+.space-top{
+	padding-top: 15px;
+}
+
+.space-bottom{
+	padding-bottom: 30px;
+}
 /* FONTES */
 
 .bebas{
@@ -233,13 +256,23 @@ table {
 
 .tag{
 	background-color: #65ba99;
-	border: 1px solid #65ba99;
-	padding: 3px;
+	padding: 4px 11px 3px;
 	text-align: center;
-	width: 120px;
 	color: white;
 	font-size: 15px;
-	margin: 2px 2px 2px 2px;
+	margin: 2px;
+	display: inline-block;
+
+}
+
+.bloco-verde{
+	background-color: #65ba99;
+	padding: 4px 11px 3px;
+	text-align: center;
+	color: white;
+	font-size: 15px;
+	margin: 2px;
+	display: inline-block;
 
 }
 
@@ -257,7 +290,7 @@ table {
 }
 
 .fonte-cinza{
-	color: #252222;
+	color: gray;
 }
 
 .fonte-branca{
