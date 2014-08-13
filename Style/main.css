@@ -160,6 +160,15 @@ table {
 	background: #e2534b;
 }
 
+.circle{
+    border-radius: 100%;
+    display: inline-block;
+    height: 190px;
+    width: 190px;
+    background-color: white;
+
+}
+
 .color{
 	color: white;
 }
@@ -171,6 +180,8 @@ table {
 .data{
 	background-color:#65ba99; 
 	color: white;
+	width: 150px;
+	height: 22px;
 }
 
 
@@ -223,6 +234,12 @@ table {
 	padding-top: 15px;
 }
 
+.central{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 .space-bottom{
 	padding-bottom: 30px;
 }
@@ -230,6 +247,22 @@ table {
 
 .bebas{
 	font-family: Bebas Neue;
+}
+
+.open{
+	font-family: Open Sans;
+}
+
+.italico{
+	font-style: italic;
+}
+
+.negrito{
+	font-weight: bold;
+}
+
+.john{
+	font-size: 45px;
 }
 
 .grande{
