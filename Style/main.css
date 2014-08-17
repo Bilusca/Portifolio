@@ -60,6 +60,7 @@ table {
 .color-link a:hover{
 	color: #65ba99;
 }
+
 .fancybox{
 	position: relative;
 	display: block;
@@ -182,6 +183,9 @@ table {
 	color: white;
 	width: 150px;
 	height: 22px;
+	font-size: 13px;
+	text-align: center;
+	padding-top: 2px;
 }
 
 
@@ -233,6 +237,10 @@ table {
 
 .space-top{
 	padding-top: 15px;
+}
+
+h6{
+	padding-bottom: 100px;
 }
 
 .central{
@@ -299,6 +307,10 @@ table {
 
 }
 
+.display{
+	display: inline-block;
+}
+
 .bloco-verde{
 	background-color: #65ba99;
 	padding: 4px 11px 3px;
@@ -314,9 +326,8 @@ table {
 	border-width: 4px;
 	border-style: solid;
 	border-color: white;
-	max-width: 200px;
-	text-align: center;
-
+	padding: 2px;
+	max-width: 700px;
 }
 
 .fonte-verde{
