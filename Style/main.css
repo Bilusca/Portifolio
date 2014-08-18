@@ -217,6 +217,9 @@ table {
 .text-center{
 	text-align: center;
 }
+.social2{
+	margin:15px;
+}
 .align, .space{
 	display: inline;
 }
